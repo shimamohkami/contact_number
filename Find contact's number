@@ -1,0 +1,20 @@
+def add_contact(phone_book,name,number):
+    phone_book[name]=number
+
+def find_contact(phone_book,name):
+    return phone_book.get(name, "contact is not found.")
+
+phone_book={}
+
+add_contact(phone_book,"shimin","9179179179")
+add_contact (phone_book,"shima", "9389389389")
+add_contact(phone_book,"ali","9179179170")
+add_contact (phone book, "reza", "9179179173")
+
+name_to_find=input("enter your contact name :")
+contact_number=find_contact(phone_book,name to find)
+
+if contact_number != "contact is not found." :
+    print(f"number of {name to find} is {confcontane number})
+else:
+    print(ceontact_number)
